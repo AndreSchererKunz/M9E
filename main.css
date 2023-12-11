@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    margin-top: 200px;
+}
+
+form {
+    margin-bottom: 16px;
+}
+
+h1 {
+    margin-bottom: 34px;
+    font-size: 26px;
+}
+
+input, button {
+    font-size: 20px;
+    padding: 6px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.075)
+}
+
+button {
+    font-weight: 550;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 1px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.nova-tarefa {
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.marcado {
+    text-decoration: line-through;
+}
